@@ -90,6 +90,8 @@ h1,
 
 a {
   text-decoration: none;
+  display: inline-block;
+  margin: 0 0.5%;
 }
 
 h3,
@@ -130,6 +132,8 @@ p,
 .bottom-container {
   font-size: 1.73vw;
   font-family: "Playfair Display", serif;
+  background-color: #fbebb4dc;
+  padding-top: 2%;
 }
 
 .img-ref-link {
@@ -148,4 +152,23 @@ hr {
   width: 4%;
   padding-top: 2%;
   margin-bottom: 2%;
+}
+
+.copyright{
+  margin-bottom: 0;
+  font-size: 1.4vw;
+}
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  background: #fef8d9d8;
+  padding: 0.42vw 1.67vw 0.42vw 1.67vw;
+  border: solid #4f4937dc 3px;
+  margin: 1%;
+  display: inline-block;
+}
+
+.btn:hover {
+  border: solid #000000dc 3px;
 }
